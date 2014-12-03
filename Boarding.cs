@@ -55,7 +55,8 @@ namespace Aeroport_Application
             nbPassagerB = Convert.ToInt32(iadt.Rows[0]["Places_B"].ToString());
             nbPassagerE = Convert.ToInt32(iadt.Rows[0]["Places_E"].ToString());
             passagerTotal = nbPassagerB + nbPassagerE;
-            UpdateStatistics();
+            //UpdateStatistics();
+
 
         }
         private void DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
